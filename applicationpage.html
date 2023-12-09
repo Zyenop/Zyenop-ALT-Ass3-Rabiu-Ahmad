@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <center>
+        <a href="./index.html">About Me</a>
+        <span>||</span>
+        <a href="#">Application Form</a>
+      </center>
+    </nav>
+    <hr>
+    <h2>Application Form</h2>
+    <h4>Fill in your details</h4>
+  </header>
+  <main>
+    <form action="">
+      <div class="form-group">
+        <label for="firstname">First Name<span>*</span></label>
+        <input placeholder="Enter first name" type="text" name="firstname" id="firstname">
+      </div>
+      <div class="form-group">
+        <label for="lastname">Last Name<span>*</span></label>
+        <input placeholder="Enter last name" type="text" name="lastname" id="lastname">
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender<span>*</span></label>
+        <select name="gender" id="gender">
+          <option value="">Select gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="dateofbirth">Date of birth <span>*</span></label>
+        <input type="date" name="dateofbirth" id="dateofbirth">
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address<span>*</span></label>
+        <input placeholder="Enter email address" type="email" name="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="educationlevel">Education Level<span>*</span></label>
+        <select name="educationlevel" id="educationlevel">
+          <option value="">Select level of education</option>
+          <option value="bsc">BSC</option>
+          <option value="msc">MSC</option>
+          <option value="diploma">Diploma</option>
+          <option value="doctorate">Doctorate</option>
+          <option value="highschool">High School/ Secondary school</option>
+          <option value="undergraduate">Undergraduate</option>
+          <option value="juniorschool">Junior/ Middle school</option>
+          <option value="postgraduate">Postgraduate</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="country">Country<span>*</span></label>
+        <select name="country" id="country">
+          <option value="">Select your country</option>
+          <option value="nigeria">Nigeria</option>
+          <option value="algeria">Algeria</option>
+          <option value="kenya">Kenya</option>
+          <option value="doctorate">Doctorate</option>
+          <option value="highschool">High School/ Secondary school</option>
+          <option value="undergraduate">Undergraduate</option>
+          <option value="juniorschool">Junior/ Middle school</option>
+          <option value="postgraduate">Postgraduate</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="state">State/City of Residence <span>*</span></label>
+        <input type="text" name="state" placeholder="Enter your state of residence">
+      </div>
+      <div class="form-group">
+        <label for="employmentstatus">Employment Status <span>*</span></label>
+        <select name="employmentstatus" id="employmentstatus">
+          <option value="">Select employment status</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="selfemployed">Self Employed</option>
+          <option value="employed">Employed</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="tel">Phone Number <span>*</span></label>
+        <input type="tel" name="tel" id="tel" placeholder="08123456789">
+      </div>
+      <div class="form-group">
+        <label for="school">Choose school <span>*</span></label>
+        <select name="school" id="school">
+          <option value="">Select school</option>
+          <option value="schoolofeconomy">School of creative economy</option>
+          <option value="schoolofbusiness">School of Business</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="school">Choose Course of Study <span>*</span></label>
+        <select name="school" id="school">
+          <option value="">Select course</option>
+          <option value="schoolofeconomy"></option>
+          <option value="schoolofbusiness"></option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="howIheard">How did you hear about us?<span>*</span></label>
+        <select name="howIheard" id="howIheard">
+          <option value="">Select channel</option>
+          <option value="friend">Friend</option>
+          <option value="facebook">Facebook</option>
+          <option value="whatsApp">WhatsApp</option>
+          <option value="instagram">Instagram</option>
+          <option value="twitter">Twitter</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="Schorlarship/DiscountCode">Schorlarship/Discount Code (optional)</label>
+        <input placeholder="Schorlarship or student ID or discount code" type="text" name="Schorlarship/DiscountCode" id="Schorlarship/DiscountCode">
+      </div>
+    </form>
+
+    <p>By clicking continue, I agree to  Terms of Use and acknowledge that I have read the  Privacy Policy.</p>
+    <button>Proceed</button>
+    <span>Already have an account?Sign In</span>
+  </main>
+  <footer>
+    <center>
+      <hr>
+      <span>&copy;Rabiu Ahmad || ALT/SOE/023/2634</span>
+      <hr>
+    </center>
+  </footer>
+</body>
+</html>
